@@ -62,8 +62,10 @@ public class LoginServlet extends HttpServlet {
 		out.println("<p>"+date+"</p>");
 		
 		out.println("<form action=\"index.html\" method=\"post\">"		
-				+ "<input type=\"submit\" value=\"Retour home\">"		
+				+ "<input type=\"submit\" value=\"Return\">"		
 				+ "</form>");
+		
+		
 
 }
 
